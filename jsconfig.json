@@ -1,0 +1,20 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "react",
+            "react-redux",
+            "redux-saga"
+        ]
+    },
+    "compilerOptions": {
+        "target": "ES6"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "include": [
+        "Client/**/*",
+        "Server/**/*"
+    ]
+}
